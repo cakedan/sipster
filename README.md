@@ -1,3 +1,5 @@
+**NOTE: This is a hacked together fork to support system audio. There are no guarantees and it is not currently in a state to be merged back to master. If someone wants to clean it up and submit a PR to upstream that would be great. Otherwise this will be done someday in the nonimmediate future. **
+
 Description
 ===========
 
