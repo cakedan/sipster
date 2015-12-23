@@ -1005,13 +1005,13 @@ extern "C" {
              Nan::New<FunctionTemplate>(EPSetInputVolume)->GetFunction());
     Nan::Set(target,
              Nan::New("setOutputVolume").ToLocalChecked(),
-             Nan::New<FunctionTemplate>(EPSetInputVolume)->GetFunction());
+             Nan::New<FunctionTemplate>(EPSetOutputVolume)->GetFunction());
        Nan::Set(target,
              Nan::New("getInputVolume").ToLocalChecked(),
              Nan::New<FunctionTemplate>(EPGetInputVolume)->GetFunction());
     Nan::Set(target,
              Nan::New("getOutputVolume").ToLocalChecked(),
-             Nan::New<FunctionTemplate>(EPGetInputVolume)->GetFunction());
+             Nan::New<FunctionTemplate>(EPGetOutputVolume)->GetFunction());
   Nan::Set(target,
              Nan::New("getAECTail").ToLocalChecked(),
              Nan::New<FunctionTemplate>(EPGetAEC)->GetFunction());
